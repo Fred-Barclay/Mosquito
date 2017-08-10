@@ -1,7 +1,7 @@
 # All.R
 # Plot all bloodwork numbers and trends on a single graph
 library(reshape2)
-library(tidyverse)
+library(ggplot2)
 
 mainCsv <- file.choose()
 
